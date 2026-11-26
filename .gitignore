@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Build outputs
+dist/
+dist-server/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database & Local Uploads
+*.db
+*.db-shm
+*.db-wal
+database/*.db
+database/*.db-shm
+database/*.db-wal
+uploads/*
+!uploads/.gitkeep
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
+captures/*.pcap
+captures/*.pcapng

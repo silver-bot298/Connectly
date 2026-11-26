@@ -1,0 +1,6 @@
+{
+  "name": "Connectly",
+  "description": "Connectly is a real-time multi-user messaging application built with a dedicated Python TCP socket server, WebSocket gateway, SQLite persistence, and Burgundy Muse design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
